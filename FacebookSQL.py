@@ -38,7 +38,7 @@ class Review(Base):
     #dominant_topic = Column(Integer)
     #topic_contribution = Column(FLOAT)
     
-engine = create_engine('mysql://root:Ir0nmaiden18@localhost:3306/reviewdata', echo=True)
+engine = create_engine('mysql://Thomas:Password2@localhost:3306/reviewdata', echo=True)
 
 
 df.to_sql(table_name,engine)
